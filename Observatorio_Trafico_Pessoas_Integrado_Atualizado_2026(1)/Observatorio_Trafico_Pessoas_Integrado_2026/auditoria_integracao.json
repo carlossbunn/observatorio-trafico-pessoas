@@ -1,0 +1,26 @@
+{
+  "contagens": {
+    "fontes": 59,
+    "indicadores": 34,
+    "indicadores_recebidos": 34,
+    "perguntas": 18,
+    "correlacoes": 12,
+    "evidencias": 6,
+    "observacoes": 32,
+    "eurostat_serie": 11,
+    "megabase": 117,
+    "registros_unificados": 289,
+    "arestas_documentais": 899
+  },
+  "auditoria_csv": {
+    "linhas": 34,
+    "duplicatas_exatas": 34,
+    "novos": [],
+    "conflitos": []
+  },
+  "avisos": {
+    "estatistica": "Somente observações comparáveis, da mesma unidade e população, admitem estimativas.",
+    "ligacoes": "Contagens de relações estruturais não são eventos de tráfico."
+  },
+  "fontes_nao_resolvidas": {}
+}

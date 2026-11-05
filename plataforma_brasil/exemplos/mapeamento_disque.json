@@ -1,0 +1,17 @@
+{
+  "id_denuncia": "hash",
+  "identificador_descricao": "Hash do registro administrativo disponibilizado pela fonte; não presumido como protocolo de denúncia ou identificador de vítima",
+  "data": "Data_de_cadastro",
+  "campo_data_descricao": "Data de cadastro no sistema, não data comprovada da ocorrência",
+  "formato_data": "%Y-%m-%d %H:%M:%S.%f",
+  "uf": "UF",
+  "municipio": "Município",
+  "violacao": "violacao",
+  "valores_violacao": [
+    "LIBERDADE>DIREITOS INDIVIDUAIS>TRÁFICO DE PESSOAS - NACIONAL",
+    "LIBERDADE>DIREITOS INDIVIDUAIS>TRÁFICO DE PESSOAS - INTERNACIONAL"
+  ],
+  "periodo": "2026-T3",
+  "cobertura_anual_completa": false,
+  "unidade_contagem": "registros_administrativos_distintos_na_celula"
+}

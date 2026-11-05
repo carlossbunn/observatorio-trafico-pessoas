@@ -1,0 +1,19 @@
+[
+  {
+    "id": "safernet-alerta-falsas-agencias-2025",
+    "titulo": "SaferNet relata falsas agências de modelo em redes sociais",
+    "descricao": "A SaferNet descreve falsas agências de modelo recrutando adolescentes pelas redes sociais para exploração sexual em eventos no Brasil. A publicação não individualiza anúncios, contas ou localizações.",
+    "classificacao": "alerta_geral",
+    "recorte": "brasil",
+    "pais": "Brasil",
+    "plataforma": "Redes sociais não especificadas",
+    "data_publicacao": "2025-07-04",
+    "fonte_id": "A22",
+    "fonte_nome": "SaferNet Brasil",
+    "fonte_url": "https://new.safernet.org.br/content/dados-da-safernet-sobre-trafico-de-pessoas-integram-painel-do-ministerio-da-justica",
+    "trecho_evidencia": "falsas agências de modelo recrutando adolescentes pelas redes sociais para fins de exploração sexual durante feiras, congressos e grandes eventos no Brasil",
+    "relacao_brasil": "A publicação descreve recrutamento para exploração sexual em eventos no Brasil.",
+    "sinais": ["Falsas agências de modelo", "Recrutamento pelas redes sociais"],
+    "limites": "Alerta geral baseado em relato institucional. A fonte não identifica uma vaga individual, suspeitos, data da oferta ou decisão judicial. Não contar como caso individual."
+  }
+]

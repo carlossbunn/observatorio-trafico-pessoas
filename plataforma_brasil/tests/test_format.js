@@ -1,0 +1,14 @@
+'use strict';
+const assert=require('node:assert/strict');
+const F=require('../web/format.js');
+assert.equal(F.text(0),'0');
+assert.equal(F.text(false),'Não');
+assert.equal(F.text(null),'Não informado');
+assert(!F.html({data:null,quantidade:0,verificado:false,origem:{uf:null}}).includes('null'));
+assert(F.html({quantidade:0}).includes('0'));
+assert(!F.html('<script>alert(1)</script>').includes('<script>'));
+assert(F.html('https://example.org/report').includes('rel="noopener noreferrer"'));
+assert(!F.html('javascript:alert(1)').includes('<a'));
+assert.equal(F.periods({ano:null,metadados:{periodos_referencia:[{inicio:2021,fim:2023}]}}),'2021–2023');
+assert.deepEqual(F.years({ano:2025,metadados:{periodos_referencia:[{inicio:2021,fim:2023}]}}),[2025,2021,2022,2023]);
+console.log('Formatação: ausências, zeros, segurança de HTML e períodos verificados.');

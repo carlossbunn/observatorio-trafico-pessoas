@@ -1,0 +1,7 @@
+﻿ID;Fonte;Achado / métrica;Valor;Unidade;Limitação;Fonte ID;URL da fonte
+E01;OSCE 2026;Anúncios de recrutamento analisados;82;anúncios;"Amostra exploratória; não prevalência";F01;https://cthb.osce.org/sites/default/files/documents/publications/2026/04/Cyber%20Scam_Screen_260429.pdf
+E02;OSCE 2026;Mensagens do Telegram analisadas;750;mensagens;"Relatório executivo usa 750; outros trechos podem reportar 749 únicas";F01;https://cthb.osce.org/sites/default/files/documents/publications/2026/04/Cyber%20Scam_Screen_260429.pdf
+E03;OSCE 2026;Anúncios com direcionamento por gênero;12;por cento;Percentual referente à amostra OSCE estudada;F01;https://cthb.osce.org/sites/default/files/documents/publications/2026/04/Cyber%20Scam_Screen_260429.pdf
+E04;CTDC versão 2026;Vítimas e sobreviventes representados;230000;mais de 230 mil;"Dados sintéticos; não são 230 mil linhas de casos identificáveis";F15;https://es.ctdatacollaborative.org/dataset/global-synthetic-data-and-resources/resource/microdata
+E05;UNODC indicadores;Status de indicadores de tráfico;;qualitativo;Conjunto de indicadores não constitui prova individual;F03;https://www.unodc.org/e4j/en/tip-and-som/module-6/key-issues/indicators-of-trafficking-in-persons.html
+E06;DTM API;Granularidade espacial disponível;2;nível admin 2;"Dados agregados; não indivíduos identificáveis";F06;https://dtm.iom.int/es/node/38776
